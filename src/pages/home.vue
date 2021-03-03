@@ -1,4 +1,8 @@
 <template>
+  {{ count }}
+  <van-button type="primary" size="large" @click="increment"
+    >大号按钮</van-button
+  >
   <van-tabbar v-model="active" safe-area-inset-bottom>
     <van-tabbar-item icon="home-o">标签</van-tabbar-item>
     <van-tabbar-item icon="search">标签</van-tabbar-item>
@@ -8,12 +12,17 @@
 </template>
 
 <script>
-import { ref } from "vue";
-
+import { ref, computed } from "vue";
+import { useStore } from "vuex";
 export default {
   setup() {
+    const store = useStore();
     const active = ref(0);
-    return { active };
+    return {
+      active,
+      count: computed(() => store.state.userInfo.count),
+      increment: () => store.commit("increment"),
+    };
   },
 };
 </script>
