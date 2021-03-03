@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <van-button type="primary">主要按钮</van-button>
 </template>
 
 <script lang="ts">
