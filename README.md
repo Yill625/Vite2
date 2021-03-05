@@ -5,7 +5,7 @@
 
 [Vite 中文](https://cn.vitejs.dev/)
 
-[Vue3](https://v3.cn.vuejs.org/)
-[Vue Router Next](https://next.router.vuejs.org/)
-[Vux Next](https://next.vuex.vuejs.org/)
-[Vue Cli](https://cli.vuejs.org/)
+- [Vue3](https://v3.cn.vuejs.org/)
+- [Vue Router Next](https://next.router.vuejs.org/)
+- [Vux Next](https://next.vuex.vuejs.org/)
+- [Vue Cli](https://cli.vuejs.org/)
