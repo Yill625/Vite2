@@ -1,5 +1,7 @@
 <template>
+<div class="count">
   {{ count }}
+</div>
   <van-button type="primary" size="large" @click="increment"
     >大号按钮</van-button
   >
@@ -26,3 +28,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.count{
+  color: red;
+}
+</style>
